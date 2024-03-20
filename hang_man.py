@@ -2,7 +2,8 @@ import random
 print("Let's play  the game by gussing the letter ,Hangman")
 print("Get ready to guess")
 
-def welcometogame()://accepting the name of player
+###accepting the name of player
+def welcometogame():
   name=input("we welcome you to the game! Please Enter your goodname:\n")
   print("Hii",name,"enjoy the game")
 
