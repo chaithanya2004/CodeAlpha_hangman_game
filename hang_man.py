@@ -2,7 +2,7 @@ import random
 print("Let's play  the game by gussing the letter ,Hangman")
 print("Get ready to guess")
 
-def welcometogame():
+def welcometogame()://accepting the name of player
   name=input("we welcome you to the game! Please Enter your goodname:\n")
   print("Hii",name,"enjoy the game")
 
@@ -85,6 +85,7 @@ while(amount_of_times_wrong != 7 and current_letters_right != length_of_word_to_
     print("\nyou guessed letters: ")
     for letter in current_letters_guessed:
       print(letter, end=" ")
+      #user input
     you_guessed_letter= input("\nJust drop the letter: ")
     if(randomchoice[current_guess_index] ==you_guessed_letter ):
       print_hangman(amount_of_times_wrong)
